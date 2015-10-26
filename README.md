@@ -1,2 +1,2 @@
-# Issues-solution
-This folder is for saving all the interview Questions and solutions
+# Issues-solutions
+This folder is for saving some issues' solution
