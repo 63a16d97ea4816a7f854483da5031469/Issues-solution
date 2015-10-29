@@ -33,6 +33,7 @@ svn export https://svn.example.com/MyRepo/trunk/@REV
 You may notice that with svn checkout and svn export you can enter REV number as --revision REV argument and as trailing @REV after URL. The first one is called operative revision, the second one is called peg revision. Read SVNBook for more information about peg and operative revisions concept.
 
 
+<<<<<<< Updated upstream
 > http://rubyrobot.org/tutorial/subversion-with-mac-os-x
 
 simple svn commands of MAC:
@@ -78,5 +79,18 @@ remove files or directories
 The personal commands of mac/linux:
 ls -lrt
 
+
+####Xcode 5 解决 The operation couldn’t be completed. (NSURLErrorDomain error -1012.) 问题
+
+
+解决方法：
+打开终端 然后输入如下命令 
+svn ls xxxx  (xxx是你SVN Server的地址)
+这里询问你是否允许这个地址的访问，我们输入 “ p ”，然后回车即可。
+
+验证是否OK的方法：
+再次控制台输入  svn ls xxxx
+当不再提示让你选择是否允许的提示，而是直接控制台出现如下信息，说明OK了
+然后 Check Out…………
 
 
