@@ -33,4 +33,15 @@ All connections using the NSURLConnection, CFURL, or NSURLSession APIs use App T
  	  </dict>  
 
 
-##
+#String cannot be localized --bug in app:
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    HeaderTableViewCell *cell = (HeaderTableViewCell*)[tableView dequeueReusableCellWithIdentifier:CELL_ID_TITLE forIndexPath:indexPath];
+    cell.accessoryType = UITableViewCellAccessoryNone;
+    
+    cell.headerLabel.text = [LocaleHelper getLocalizedStringWithKey:[titleList objectAtIndex:indexPath.row]];
+
+    return cell;
+}
