@@ -33,6 +33,25 @@ Using home-brew or custom $GEM_HOME can help resolving the issue. I did clean in
 brew install ruby
 Now the gem stuff seem to happen relative to my /usr/local/bin*, which is exactly what I needed.
 
-Then everything is fine.
 
+
+
+
+if anyone is facing issue in updating pods on Mac El Capitan, then follow the below way to update CocoaPods
+
+sudo nvram boot-args="rootless=0"
+
+sudo reboot
+After Restart Your Mac Open Terminal And Type
+
+sudo gem install cocoapods -V
+it was still showing the error, then further added
+
+
+**This one is quite improtant:**  
+sudo gem install -n /usr/local/bin cocoapods
+
+
+
+Then everything is fine.
 
