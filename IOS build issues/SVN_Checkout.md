@@ -88,6 +88,8 @@ ls -lrt
 svn ls xxxx  (xxx是你SVN Server的地址)
 这里询问你是否允许这个地址的访问，我们输入 “ p ”，然后回车即可。
 
+svn ls https://lei.cao@10.180.8.8/svn/xxxxx/trunk/xxxx
+
 验证是否OK的方法：
 再次控制台输入  svn ls xxxx
 当不再提示让你选择是否允许的提示，而是直接控制台出现如下信息，说明OK了
