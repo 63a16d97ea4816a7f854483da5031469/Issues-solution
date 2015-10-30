@@ -45,3 +45,22 @@ All connections using the NSURLConnection, CFURL, or NSURLSession APIs use App T
 
     return cell;
 }
+
+#Word display: linewarp
+
+
+For delivery date and time line wrap:
+
+        self.deliveryTime = [[UILabel alloc] initWithFrame:CGRectMake(20, 31, 260, 50)];
+
+        self.deliveryTime.numberOfLines = 0;
+
+* First, you need to set the numberOfLines=0.
+* Second, you need to make sure the height of the UILabel is enough for display two or three(more than one line) as you want.(notice: the height will be affected by the font you set for the string.)
+
+
+>The below sentence is not supported in below IOS 6, but this one can control whether to display "...." when there contains extra words cannot be displayed.
+
+	   self.deliveryTime.lineBreakMode = NSLineBreakByCharWrapping;  // this will hide the "......", even there are extra words cannot be shown.
+
+
