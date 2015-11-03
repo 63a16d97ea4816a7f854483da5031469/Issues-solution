@@ -1,6 +1,6 @@
 ##Is there a way to see what UDID are included in a build?
 
-We used crashlytics to build and release a new version to testers, but one user reported that he cannot install the app.
+We used crashlytics to build and release a new version to testers, but one user reported that he could not be able to install the app.
 
 He said when he was trying to install the app:
 The crashlytics said: the developer needs to add this device's UDID to a build.
