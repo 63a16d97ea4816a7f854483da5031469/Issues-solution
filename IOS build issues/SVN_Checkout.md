@@ -96,3 +96,18 @@ svn ls https://lei.cao@10.180.8.8/svn/xxxxx/trunk/xxxx
 然后 Check Out…………
 
 
+##
+After I uninstalled the old version of Xcode, then I got some issues about using SVN:
+
+	App-Mac-mini-4:sourceApp $svn
+xcrun: error: active developer path ("/Applications/Xcode6/Xcode.app/Contents/Developer") does not exist, use `xcode-select --switch path/to/Xcode.app` to specify the Xcode that you wish to use for command line developer tools (or see `man xcode-select`)
+
+
+http://stackoverflow.com/questions/11456918/change-xcrun-developer-path
+
+
+
+Use this command to solve this issue:   
+sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer
+
+
