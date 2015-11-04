@@ -58,7 +58,7 @@ Could not remove entry '/Users/..../.../.../..../build/intermediates/exploded-aa
 
 
 
-#Transfer File to Android phone by using mac
+#Transfer File to Android phone when using Mac computer
 
 Need to use Android File Transfer
 
@@ -89,7 +89,9 @@ Double click Android File Transfer.
 Browse the files and folders on your Android device and copy files up to 4GB.
 
 
-
+In Android phone, there is an app called:   
+**ES File Explorer**  
+This app is very useful for managing files in Android Phone.
 
 
 
