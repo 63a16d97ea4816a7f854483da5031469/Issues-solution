@@ -96,7 +96,7 @@ svn ls https://lei.cao@10.180.8.8/svn/xxxxx/trunk/xxxx
 然后 Check Out…………
 
 
-##
+## SVN cannot work after uninstall the old versions of Xcode.
 After I uninstalled the old version of Xcode, then I got some issues about using SVN:
 
 	App-Mac-mini-4:sourceApp $svn
@@ -109,5 +109,9 @@ http://stackoverflow.com/questions/11456918/change-xcrun-developer-path
 
 Use this command to solve this issue:   
 sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer
+
+
+## How to install the new SVN tool:
+https://ahmadawais.com/installing-svn-subversion-on-yosemite-after-removing-the-old-version/
 
 
