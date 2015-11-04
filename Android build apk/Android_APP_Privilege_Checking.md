@@ -22,6 +22,8 @@ Settings are found in global configuration file of Android:
     <uses-permission android:name="android.permission.VIBRATE" />  - 10
     <uses-permission android:name="android.permission.WAKE_LOCK" />  - 11
 
+>Note: WAKE_LOCK	Allows using PowerManager WakeLocks to keep processor from sleeping or screen from dimming.
+
 These settings below are about the item 9 in image:  Found these settings in Vmob configuration file:
    	
 On a device boot the app needs to download geo-fences again as they would have been lost when the device was shut down:
@@ -29,3 +31,6 @@ On a device boot the app needs to download geo-fences again as they would have b
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> - 9
     
 
+
+If you want to reference all the permission settings of Android:
+http://developer.android.com/reference/android/Manifest.permission.html
