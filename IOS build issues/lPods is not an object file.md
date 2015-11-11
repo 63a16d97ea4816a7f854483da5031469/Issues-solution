@@ -28,3 +28,5 @@ post_install do |installer_representation|
         end
     end
 end
+
+After modifying project to pods_project, used the "pod install". Everything is fine.
