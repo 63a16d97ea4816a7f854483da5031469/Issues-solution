@@ -21,8 +21,23 @@ connect to all the related fixed JIRA ticket. (only JIRA)  To this created sub-t
 3. Choose the related Provisioning Profile,Team and Code Signing Identity for the "Target".
 4. Begin to build.
 5. Export the AdHoc IPA or submitting to Apple Store.
-6. Do the testing and write the testing excel file.
-7. Inform project manager of the testing result.
+6. Do the testing and write the testing excel file. Especially for the JIRA tickets appeared in Release Note
+7. Inform project manager of the testing result by using email.
 8. Wait for project manager's command to publish the release by using Crashlytics
 9. After releasing the apps, I need to check the links sent out to make sure it is right(version is right and can be download).
 10. Report the release result.
+
+Send release information to internal team.
+
+update to alpha, send email notification
+update to beta, send email notification
+
+
+If someone added new bugzilla:
+
+(1) Update the release note
+(2) Upload the latest one to related JIRA release master ticket.
+(3) Link the new tickets into JIRA release master ticket.
+(4) Send the latest release note to all.
+
+

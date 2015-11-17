@@ -28,10 +28,23 @@ Android build checklist:
 7. Choose the "APK Destination Folder"
 8. For "Build Type", using the "release".
 9. Click "Finish". 
-10. Do the testing and write the testing excel file.
-11. Inform project manager of the testing result.
+10. Do the testing and write the testing excel file. Especially for the JIRA tickets appeared in Release Note
+11. Inform project manager of the testing result by using email.
 12. Wait for project manager's command to publish the release by using Android Play Console.
 13. After releasing the apps, I need to check the links sent out to make sure it is right(version is right and can be download).
 14. Report the release result.
 
+
+update to alpha, send email notification
+update to beta, send email notification
+
+Send release information to internal team.
+
+
+If someone added new bugzilla:
+
+(1) Update the release note
+(2) Upload the latest one to related JIRA release master ticket.
+(3) Link the new tickets into JIRA release master ticket.
+(4) Send the latest release note to all.
 
