@@ -18,14 +18,17 @@ connect to all the related fixed JIRA ticket. (only JIRA)  To this created sub-t
 
 1. Refresh specific market's Provisioning Profile and check the keychain.
 2. Choose the related "Target" of market, to modify the Version number and build number.
-3. Choose the related Provisioning Profile,Team and Code Signing Identity for the "Target".
-4. Begin to build.
-5. Export the AdHoc IPA or submitting to Apple Store.
-6. Do the testing and write the testing excel file. Especially for the JIRA tickets appeared in Release Note
-7. Inform project manager of the testing result by using email.
-8. Wait for project manager's command to publish the release by using Crashlytics
-9. After releasing the apps, I need to check the links sent out to make sure it is right(version is right and can be download).
-10. Report the release result.
+3. Before build, you need to commit the change for Version Number and build number.
+4. Choose the related Provisioning Profile,Team and Code Signing Identity for the "Target".
+5. Begin to build.
+6. Export the AdHoc IPA or submitting to Apple Store.
+7. Do the testing and write the testing excel file. Especially for the JIRA tickets appeared in Release Note
+8. Inform project manager of the testing result by using email.
+9. Wait for project manager's command to publish the release by using Crashlytics
+10. After releasing the apps, I need to check the links sent out to make sure it is right(version is right and can be download).
+11. Report the release result.
+12. After build, you need to add tag/branch for this release in SVN.
+
 
 Send release information to internal team.
 
