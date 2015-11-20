@@ -4,7 +4,7 @@ For delivery string, the string font size and font name is different for differe
 [header.deliveryString setNumberOfLines:1];
 [header.deliveryString setAdjustsFontSizeToFitWidth:YES];
 
-
+-----
 Take Note:
 
 [Label setAdjustsLetterSpacingToFitWidth:YES];
