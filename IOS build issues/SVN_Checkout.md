@@ -32,6 +32,14 @@ svn export https://svn.example.com/MyRepo/trunk/@REV
 
 You may notice that with svn checkout and svn export you can enter REV number as --revision REV argument and as trailing @REV after URL. The first one is called operative revision, the second one is called peg revision. Read SVNBook for more information about peg and operative revisions concept.
 
+##check out from Branch/tag
+svn checkout http://svn.example.com/repos/calc/branches/my-calc-branch
+
+Successful command:
+svn checkout https://xx.xx.xxx.x/svn/xxx.xxx/tags/xxx_xxxx/x.x.xx_xx
+
+
+----
 
 <<<<<<< Updated upstream
 > http://rubyrobot.org/tutorial/subversion-with-mac-os-x
