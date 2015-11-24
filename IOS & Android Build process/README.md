@@ -16,4 +16,4 @@
 
 - Create Bugzilla milestone, update release note's bugzilla tickets' Target Milestone field with new milestone.
 
-- After getting approval from PM, upload binaries to crashlytics/google play, and send out email for google play using the google group post.
+- After getting approval from PM, upload binaries to crashlytics/google play, and send out email for google play by using the google group post.
