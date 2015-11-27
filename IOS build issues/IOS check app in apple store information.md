@@ -5,6 +5,10 @@ Check all the information of your app by using the URL and bundle ID:
 https://itunes.apple.com/lookup?bundleId=sg.com.mcdelivery.McDelivery
 
 
+
+https://itunes.apple.com/search?？name=
+
+
 This is the json returned from Apple:
 
 	// 20151118141002
@@ -105,3 +109,11 @@ This is the json returned from Apple:
     }
   ]
 }
+
+
+http://blog.csdn.net/kesalin/article/details/6605934
+
+
+
+https://itunes.apple.com/lookup?bundleId=com.mcdeliveryonline.app
+

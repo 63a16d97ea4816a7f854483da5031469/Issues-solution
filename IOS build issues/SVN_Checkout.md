@@ -88,6 +88,18 @@ The personal commands of mac/linux:
 ls -lrt
 
 
+
+##Svn switch
+
+Check out from branch, then need to switch to master/trunk to commit something:
+
+svn switch https://xx.xxx.xx.xx/svn/xxx.xxx/trunk/xxx_android
+
+http://svnbook.red-bean.com/en/1.6/svn.ref.svn.c.switch.html
+
+
+
+
 ####Xcode 5 解决 The operation couldn’t be completed. (NSURLErrorDomain error -1012.) 问题
 
 
