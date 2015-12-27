@@ -2,7 +2,7 @@
 >http://www.techhive.com/article/249091/geek_101_what_is_jailbreaking_.html
 
 
-Jailbreaking Glossary
+Jailbreaking Glossary 
 
 Jailbreaking: The process of bypassing restrictions on iPhones and iPads to install other apps and tweaks not approved by Apple.   
 Rooting: A process similar to jailbreaking for hacking Android devices, game consoles, and so on. "Rooting" and "jailbreaking" are often used interchangeably.   
