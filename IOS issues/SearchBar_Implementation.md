@@ -11,6 +11,39 @@ KeyPath:
 //change the search bar 'cancel' button's color:
 
 	[[UIBarButtonItem appearanceWhenContainedInInstancesOfClasses:@[[UISearchBar class]]] setTintColor:[UIColor whiteColor]];
+	
+	
+##Changing Icon Colors on UISearchBar and UITextField
+
+http://www.tanryan.com/2015/05/changing-icon-colors-on-uisearchbar-and-uitextfield/	
+	
+	// Reference search display controller search bar's text field (in my case).
+	UITextField *searchBarTextField = [self.searchDisplayController.searchBar valueForKey:@"_searchField"];
+	
+	// Magnifying glass icon.
+	UIImageView *leftImageView = (UIImageView *)searchBarTextField.leftView;
+	leftImageView.image = [LeftImageView.image imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+	leftImageView.tintColor = [UIColor whiteColor];
+	    
+	// Clear button
+	UIButton *clearButton = [searchBarTextField valueForKey:@"_clearButton"];
+	[clearButton setImage:[clearButton.imageView.image imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate] forState:UIControlStateNormal];
+	clearButton.tintColor = [UIColor whiteColor];	
+	
+
+##After the filterContentForSearchText get the results but the tableview did not update the results:	
+	
+This is the offending line:
+
+RestaurantsCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+Should be:
+
+RestaurantsCell *cell = [self.tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+
+
+
+
+
 
 ##Implementation:
 http://www.appcoda.com/search-bar-tutorial-ios7/
