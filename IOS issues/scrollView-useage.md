@@ -29,6 +29,17 @@ UPDATE To use Autolayout, explicitly set the width and height of the scrollView'
 	}
 
 
+
+After using autolayout, you should make sure that the 
+ScrollView's contentSize's height larger than the actual scrollView's height. Otherwise, You cannot scroll the view.
+
+	    [scrollView setContentSize:CGSizeMake(screenRect.size.width, 1100)];
+	    
+	    
+	    
+	    
+
+
 http://www.tutorialspoint.com/ios/ios_ui_elements_scrollview.htm
 
 ##how to use it:
