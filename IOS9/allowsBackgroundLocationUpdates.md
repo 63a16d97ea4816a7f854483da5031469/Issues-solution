@@ -5,12 +5,16 @@ http://stackoverflow.com/questions/30808192/allowsbackgroundlocationupdates-in-c
 allowsBackgroundLocationUpdates in CLLocationManager in iOS9
 
 
-<key>NSLocationAlwaysUsageDescription</key>
-<string>I want to get your location Information in background</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>I want to get your location Information in background</string>
 
-<key>UIBackgroundModes</key>
-<array>
-    <string>location</string>
-</array>
+	<key>UIBackgroundModes</key>
+	<array>
+	    <string>location</string>
+	</array>
+
+
+      <key>allowsBackgroundLocationUpdates  </key>
+      <true/>
 
 <img src="background_modes.jpg">
