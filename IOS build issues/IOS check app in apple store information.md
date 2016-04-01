@@ -9,6 +9,9 @@ https://itunes.apple.com/lookup?bundleId=sg.com.mcdelivery.McDelivery
 https://itunes.apple.com/search?？name=
 
 
+https://itunes.apple.com/lookup?id=xxxxxx
+
+
 This is the json returned from Apple:
 
 	// 20151118141002
