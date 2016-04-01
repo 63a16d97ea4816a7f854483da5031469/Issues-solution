@@ -11,3 +11,9 @@ Reason:
      
 The above sentence only can be used under navigation controller. 
 
+
+ 
+##Another:
+    UINavigationController* nav = [[UINavigationController alloc] init];
+    xxxxxxController* vc = (xxxxxxController * )[self.storyboard instantiateViewControllerWithIdentifier:@"xxxxxVC"];
+    [nav pushViewController:vc animated:FALSE];
