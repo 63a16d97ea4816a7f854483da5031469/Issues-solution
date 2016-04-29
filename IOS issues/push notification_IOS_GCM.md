@@ -39,7 +39,9 @@ Need to modify the project''s settings:
 (2)Background Modes: Remote notification
 
 
+###After configured above Capabilities, still failed.
 
+The reason: the plist file is cached by phone itself. Uninstall the previous app, and re-install the app again.
 
 
 
