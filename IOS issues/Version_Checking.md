@@ -20,5 +20,11 @@
 	    return NO;
 	}
 	
+	
+	NSDictionary *infoDict = [[NSBundle mainBundle] infoDictionary];
+	NSString *appVersion = [infoDict objectForKey:@"CFBundleShortVersionString"]; // example: 1.0.0
+	NSString *buildNumber = [infoDict objectForKey:@"CFBundleVersion"]; // example: 42 	
+	
+	
 Another solution:	
 ###https://github.com/apptality/ATAppUpdater#installation
