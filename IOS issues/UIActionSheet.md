@@ -18,7 +18,7 @@ Show the items:
 	                                  
 Handle Events:
 
-	 - (void) actionSheet: (UIActionSheet *) actionSheet didDismissWithButtonIndex: (NSInteger) buttonIndex.
+	 - (void) actionSheet: (UIActionSheet *) actionSheet didDismissWithButtonIndex: (NSInteger) buttonIndex
 	 {
 	     switch (buttonIndex) {
 	         case 0:
