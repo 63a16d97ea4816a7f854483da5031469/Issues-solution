@@ -1,8 +1,20 @@
 #When you are looping a MutableArray, then delete its record inside.
 
-In Java, this will cause exception.
+In Java, Iterating through a Collection when removing in loop, it will cause: <font color="red"><b>ConcurrentModificationException </b></font>
 
-In Objective-c, we should avoid this kind of behavior:
+Exception in thread "main" java.util.ConcurrentModificationException  
+
+Java is collection, objective-c one is NSMutableArray.  A reminder for this kind of issue.
+
+NSMutableArray 
+ArrayList
+
+<b>The behavior is different!!</b>
+
+
+In Objective-c, we can delete its records when you are looping the Array.
+
+> We should do something like this:
 
             for(int i=0;i<_data.lists.count;i++){
                 PlanList* tmp=[_data.lists objectAtIndex:i];
@@ -18,7 +30,10 @@ In Objective-c, we should avoid this kind of behavior:
             }
             
             
-> We should do something like this:
+
+> We should avoid this kind of behavior:
+
+<b>[Wrong code]</b>:
 
             NSMutableArray *newTmpArr=[NSMutableArray arrayWithArray:[_data.lists copy]];
             
