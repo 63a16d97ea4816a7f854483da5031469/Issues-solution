@@ -1,4 +1,6 @@
 #Detect iPhone Volume Button Up Press?
+
+@import AVFoundation;
 	
 	- (void)viewWillAppear:(BOOL)animated {
 	
@@ -17,3 +19,6 @@
 	        NSLog(@"volume changed!");
 	    }
 	}
+	
+	
+http://www.jianshu.com/p/7f2ddff12c3f
