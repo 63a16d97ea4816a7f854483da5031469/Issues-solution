@@ -8,6 +8,7 @@ it should work:
 	[yourTableView scrollToRowAtIndexPath:indexPath 
 	                     atScrollPosition:UITableViewScrollPositionTop 
 	                             animated:YES];
+	                             
 	atScrollPosition could take any of these values:
 	
 	typedef enum {
@@ -17,3 +18,12 @@ it should work:
 	UITableViewScrollPositionBottom
 	} UITableViewScrollPosition;
 	
+#VisibleRows
+
+You can use tableView indexPathsForVisibleRows function, which returns an NSArray of NSIndexPath for all visible UITableViewCell. From indexPath.row you can find your array index.
+
+	[self.myTableView visibleCells];
+	
+	NSArray *anArrayOfIndexPath = [NSArray arrayWithArray:[self.myTableView indexPathsForVisibleRows]];
+	
+	NSIndexPath *indexPath= [anArrayOfIndexPath lastObject];
