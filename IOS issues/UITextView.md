@@ -33,3 +33,7 @@ UITextViewDelegate
 
 
 
+UITextView PlaceHolder:
+
+http://stackoverflow.com/questions/7038876/how-to-insert-placeholder-in-uitextview
+
