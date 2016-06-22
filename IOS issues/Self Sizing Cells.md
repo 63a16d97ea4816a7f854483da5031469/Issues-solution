@@ -15,3 +15,17 @@ To automatically adjust the height of static cells, I implement these two UITabl
 	{
 	    return 44;
 	}
+	
+	
+##Another way:
+
+	- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+	{
+	    
+	    UIFont * font = [UIFont systemFontOfSize:15.0f];
+	    NSString *text = [[_data.lists objectAtIndex:indexPath.row] listTitle];
+	    CGFloat height = [text boundingRectWithSize:CGSizeMake(self.tableView.frame.size.width, 150) options:(NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading) attributes:@{NSFontAttributeName: font} context:nil].size.height;
+	    
+	    return height + 60;
+	}	
+	
