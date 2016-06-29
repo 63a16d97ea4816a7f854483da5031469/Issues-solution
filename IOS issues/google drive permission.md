@@ -33,3 +33,11 @@ http://www.ceus-now.com/how-can-i-give-full-permissions-to-google-drive-rest-api
 
 
 kGTLAuthScopeDriveFile is the full permisson for reading and writing the file in the google drive.
+
+kGTLAuthScopeDriveMetadata is the full permission to see other files created by users except for creating by this program.
+
+You can have more than one permission types at the same time:
+
+  NSArray *scopes = [NSArray arrayWithObjects:kGTLAuthScopeDriveFile,kGTLAuthScopeDriveMetadata, nil];
+  
+  <img src="drive_permission.png"/>
