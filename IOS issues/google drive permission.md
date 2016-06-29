@@ -41,3 +41,23 @@ You can have more than one permission types at the same time:
   NSArray *scopes = [NSArray arrayWithObjects:kGTLAuthScopeDriveFile,kGTLAuthScopeDriveMetadata, nil];
   
   <img src="drive_permission.png"/>
+
+
+
+Get Full permission of google drive:
+
+	// Creates the auth controller for authorizing access to Drive API.
+	- (GTMOAuth2ViewControllerTouch *)createAuthController {
+	    GTMOAuth2ViewControllerTouch *authController;
+	    // If modifying these scopes, delete your previously saved credentials by
+	    // resetting the iOS simulator or uninstall the app.
+	    NSArray *scopes = [NSArray arrayWithObjects:kGTLAuthScopeDriveFile,kGTLAuthScopeDriveMetadata,kGTLAuthScopeDrive,kGTLAuthScopeDriveAppdata,kGTLAuthScopeDriveScripts, nil];
+	    authController = [[GTMOAuth2ViewControllerTouch alloc]
+	                      initWithScope:[scopes componentsJoinedByString:@" "]
+	                      clientID:kClientID
+	                      clientSecret:nil
+	                      keychainItemName:kKeychainItemName
+	                      delegate:self
+	                      finishedSelector:@selector(viewController:finishedWithAuth:error:)];
+	    return authController;
+	}
