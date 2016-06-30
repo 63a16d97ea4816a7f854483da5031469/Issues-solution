@@ -17,6 +17,32 @@ In viewDidLoad declare: works!
 
 #How to dismiss number pad keyboard by tapping anywhere
 
+
+The best solution:
+
+	   UITapGestureRecognizer *tapGesture= [[UITapGestureRecognizer alloc]
+	                 initWithTarget:self
+	                 action:@selector(dismissKeyboard)];
+
+tapGesture.enable=YES;  ==> Enable this gesture.  
+tapGesture.enable=No; ==> Disable this gesture.
+
+	-(void)dismissKeyboard
+	{
+	    NSLog(@"dismiss the keyboard!");
+	    [back removeFromSuperview];
+	    [self.view endEditing:YES];
+	    
+	}
+	
+	This one above even can dismiss the pickerView shown in this page.
+
+
+	=================================================================
+
+
+
+
 http://stackoverflow.com/questions/6991085/how-to-dismiss-number-pad-keyboard-by-tapping-anywhere
 
 Try this method: Works!
