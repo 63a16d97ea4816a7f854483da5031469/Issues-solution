@@ -6,7 +6,7 @@ You must login to have a valid session before downloading anything below.
 
 Xcode 7
 
-7.3: http://adcdownload.apple.com/Developer_Tools/Xcode_7.3/Xcode_7.3.dmg
+7.3: https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_7.3.1/Xcode_7.3.1.dmg
 
 7.1 : http://developer.apple.com/devcenter/download.action?path=/Developer_Tools/Xcode_7.1/Xcode_7.1.dmg
 7.0.1 : http://developer.apple.com/devcenter/download.action?path=/Developer_Tools/Xcode_7.0.1/Xcode_7.0.1.dmg
