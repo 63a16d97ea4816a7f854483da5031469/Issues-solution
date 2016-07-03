@@ -22,3 +22,20 @@ OR
 	
 ##PNG image:
 	  NSData *data = UIImagePNGRepresentation((UIImage *)image);
+	  
+	  
+	  
+	  
+#Image to Data || Data to Image
+
+Use JPEG Compression in two simple steps:
+
+1) Convert UIImage to NSData
+
+	UIImage *rainyImage =[UImage imageNamed:@"rainy.jpg"];
+	NSData *imgData= UIImageJPEGRepresentation(rainyImage,0.1 /*compressionQuality*/);
+this is lossy compression and image size is reduced.
+
+2) Convert back to UIImage;
+
+	UIImage *image=[UIImage imageWithData:imgData];
