@@ -17,7 +17,7 @@ To automatically adjust the height of static cells, I implement these two UITabl
 	}
 	
 	
-##Another way:
+##Another way=== works:
 
 	- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 	{
