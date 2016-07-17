@@ -16,3 +16,7 @@ http://stackoverflow.com/questions/24275470/xctest-xctest-h-not-found-on-old-pro
 
 
 http://stackoverflow.com/questions/26104975/dyld-library-not-loaded-rpath-libswiftcore-dylib-image-not-found
+
+
+
+No solution----> delete the related lines. Solved.
