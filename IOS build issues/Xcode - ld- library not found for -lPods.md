@@ -15,3 +15,13 @@ Too many hours lost ...
 
 My Fix:
 remove the -lPods-(someCocoaPod) lines in the 'Other Linker Flags' list BUT only if $(inherited) is at the top. At first I was unsure, but the reassuring sign was that I still saw references to my cocoapods when I left the edit mode(inherited). I tested in debug and release, both of which were giving me errors, and the problem was immediately resolved.
+
+
+
+http://blog.csdn.net/ioswyl88219/article/details/21455573
+
+
+
+Case: run the project one second later will get the same error mentioned above:
+
+Solution: remove the libpod.a from the linked Frameworks and Libraries.
