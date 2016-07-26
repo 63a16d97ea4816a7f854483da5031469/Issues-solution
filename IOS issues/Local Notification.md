@@ -3,10 +3,7 @@
 http://www.thekspace.com/home/component/content/article/62-uilocalnotification-demystified.html
 
 
-
-
-
-
+ 
 
 ###Cancelling notifications
 If your app requires cancelling any scheduled notification or notifications, you can do it by either
