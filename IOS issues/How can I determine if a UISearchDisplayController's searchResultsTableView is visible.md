@@ -14,3 +14,6 @@ searchDisplayController:didShowSearchResultsTableView:
 searchDisplayController:willHideSearchResultsTableView:
 searchDisplayController:didHideSearchResultsTableView:
 Any reason these won't work for you?
+
+Need to have this Delegate:
+UISearchDisplayDelegate
