@@ -1,6 +1,6 @@
 #Enum
 
-
+http://nshipster.com/ns_enum-ns_options/
 
 // define key state enum in .h file:
 
