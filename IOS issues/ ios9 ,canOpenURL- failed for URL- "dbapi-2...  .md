@@ -1,0 +1,3 @@
+#ios9 ,canOpenURL: failed for URL: "dbapi-2...
+
+I am getting the error  dbapi-2://1/connect" - error: "(null)" when I try to enable dropbox in the simulator however when I try my app in the device I don't get the error because I have the actual dropbox App installed. The problem is when I test my app in the device it will open dropbox to log the user but then after login, it won't come back to my app and if I come back manually, it won't upload files because it tells me the user is unauthorized.
