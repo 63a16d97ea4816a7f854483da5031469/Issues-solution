@@ -4,8 +4,7 @@ https://developers.google.com/mobile/add?platform=ios&cntapi=gcm&cntapp=Default%
 
 Development APNS Certificate (P12 format)
 
-http://quickblox.com/developers/How_to_create_APNS_certificates
-
+d
 
 
 
