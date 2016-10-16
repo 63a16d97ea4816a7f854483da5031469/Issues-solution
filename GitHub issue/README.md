@@ -27,7 +27,7 @@ git config --global --edit
 And then I tried again, everything was fine. It was switched to new account.
 
 
->###Another solution:
+>###Another solution: 
 https://help.github.com/articles/setting-your-email-in-git/  
 
 
